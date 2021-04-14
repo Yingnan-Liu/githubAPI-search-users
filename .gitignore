@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#learning code
+/01_脚手架自带文件
+/02_src_Hello_react
