@@ -1,0 +1,45 @@
+.user-container{
+   width:100%;
+   text-align: center;
+   padding:10rem 5rem;
+   background-color: azure;
+}
+.user-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+@media (max-width: 30.625em) {
+    .user-container {
+      padding: 6rem 1rem;
+    }
+  
+    .user-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+.user{
+    background-color: rgba(199, 198, 198, 0.616);
+    box-shadow:1px 1px 2px  rgba(0, 0, 0, 0.397);
+    border-radius: 2rem;
+}
+img{
+    border-radius: 2rem;
+    padding:10px;
+}
+.username{
+    font-size:1.5rem;
+    padding:2rem 1rem;
+    background-color: white;
+    border-radius:0 0 2rem 2rem ;
+}
+
+/* .project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+  } */
